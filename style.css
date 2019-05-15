@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* This is how you set backgrounds to have parallax effect  */
+.main, .secondPage, .thirdPage{
+    position: relative; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    /*
+    fixed = parallax
+    scroll = normal 
+    */
+}
+
+
+/* You will set each background in CSS  */
+.main{
+    background-image: url(./siteImages/adult-apartment-building-best-friend-2284350.jpg);
+}
+
+
+/* with min-height you controll how much picture you want to show and scroll, try 
+to change min-height settings to see what will happen */
+.secondPage{
+    background-image: url(./siteImages/audience-band-celebration-2263410.jpg);
+    min-height: 400px; 
+}
+
+.thirdPage{
+    background-image: url(./siteImages/carefree-countryside-enjoyment-2216350.jpg);
+    min-height: 600px;
+}
+
+
+/* This is your sections you can customize anything  */
+.one{
+    height: 300px;
+    text-align: center;
+}
+
+.two{
+    height: 300px;
+    text-align: center;
+}
+
+
+.tree{
+    height: 300px;
+    text-align: center;
+}
